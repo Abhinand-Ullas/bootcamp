@@ -1,7 +1,8 @@
+import 'package:bootcamp/DB/models/home_model.dart';
 import 'package:flutter/material.dart';
 
 class HeroBanner extends StatelessWidget {
-  const HeroBanner({super.key});
+  const HeroBanner({super.key, required List<HomeData> data});
 
   @override
   Widget build(BuildContext context) {
